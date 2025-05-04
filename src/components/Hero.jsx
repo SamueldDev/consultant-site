@@ -14,7 +14,7 @@ const Hero = () => {
             One Strategy at a Time.
           </h1>
           <p className="text-gray-600 dark:text-gray-300 text-lg mb-6">
-            I'm <span className="font-semibold text-indigo-600 dark:text-indigo-400">Jane Doe</span> — a business consultant who helps entrepreneurs and startups achieve clarity and growth through strategy, coaching, and action.
+            I'm <span className="font-semibold text-indigo-600 dark:text-indigo-400">Avery Brian</span> — a business consultant who helps entrepreneurs and startups achieve clarity and growth through strategy, coaching, and action.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Image (optional) */}
+        
         <div className="lg:w-1/2">
           <img
             src={consultant}

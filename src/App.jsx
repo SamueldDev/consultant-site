@@ -58,6 +58,7 @@ import Blog from "./components/Blog";
 import BlogPost from "./components/BlogPost";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import NotFound from "./components/NotFound";
 
 const App = () => {
   return (
@@ -73,6 +74,8 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
 
